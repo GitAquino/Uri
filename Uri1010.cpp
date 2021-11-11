@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+int main(void)
+{
+    int p1,n1,p2,n2;
+    double v1, v2, vt;
+
+    scanf("%d %d %lf", &p1, &n1, &v1);
+    scanf("%d %d %lf", &p2, &n2, &v2);
+
+    vt = (v1*n1)+(v2*n2);
+
+    printf("VALOR A PAGAR: R$ %.2lf\n", vt);
+}
